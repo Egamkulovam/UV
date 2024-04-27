@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1400px;
+    padding: 30px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2 {
+    color: rgb(93, 130, 37);
+    font-size: 30px;
+}
+ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    font-size: 25px;
+}
+.right_box {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.right_box>button {
+    background-color: red;
+    border: none;
+    color: aliceblue;
+    padding: 15px;
+}
+
+.main{
+    display: flex;
+    padding: 25px;
+    align-items: center;
+
+}
+
+.m_left{
+    width: 50%;
+}
+.m_left>h3{
+    font-size: 50px;
+}
+
+.m_left > span{
+    color: green;
+    font-size: 50px;
+}
+.inp{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    font-size: 30px;
+
+}
+.inp > input{
+    width: 40%;
+    padding: 14.5px;
+}
+
+.inp> button{
+    border: none;
+    padding: 16px 25px;
+    background-color: red;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.goog{
+    display: flex;
+    font-size: 30px;
+    gap: 30px;
+}
+.m_right{
+    width: 50%;
+
+}
+
+.icons{
+    background-color: aquamarine;
+    max-width: 1400px;
+}
+
+.icons2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main3{
+    max-width: 1400px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.m3_left{
+    width: 50%;
+    padding: 30px;
+}
+
+.m_right{
+    width: 50%;
+}
+.m_right > h1{
+    font-size: 25px;
+}
+.m_right> P{
+    font-size: 17px;
+}
+
+.m3_div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.m3_div > button{
+    padding: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+}
+.m3_div > p{
+    color: red;
+    font-size: 20px ;
+}
+
+.main4{
+    max-width: 1400px;
+    display: flex;
+}
+.m4_left{
+    width: 50%;
+    margin: auto;
+}
+
+.m4_left > h1{
+    font-size: 50px;
+}
+
+.m4_left >p{
+    font-size: 25px;
+
+}
+.m4_left > p > i{
+    background-color: rgb(122, 167, 53);
+    color: aliceblue;
+    border-radius: 50%;
+}
+
+.m_right{
+    padding: 30px;
+}
+
+.main5{
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+}
+
+.m5_left{
+    width: 50%;
+    padding: 30px;
+}
+.m5_left > img{
+    width: 500px;
+    height: 400px;
+}
+
+.m5_right{
+    width: 50%;
+    margin: auto;
+
+}
+.m5_right > h1{
+    font-size: 40px;
+}
+.m5_right> p{
+    font-size: 20px;
+}
+
+.main6{
+    background-color: rgb(203, 244, 230);
+    display: flex;
+    max-width: 1400px;
+}
+.m6_left{
+    width: 50%;
+    padding: 30px;
+}
+.m6_left > h1{
+    font-size: 50px;
+    
+}
+.m6_left > p{
+    font-size: 25px;
+}
+.m6_left > button{
+    font-size: 25px;
+    padding: 5px 15px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+}
+
+.m6_right{
+    width: 50%;
+    padding: 30px;
+}
+.m6_right > img{
+    border-radius: 50%;
+}
+.price{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    
+}
+
+
+
+.main_bottom {
+    padding: 90px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card_main_center {
+    border: 0.5px solid rgb(165, 163, 163);
+    border-radius: 7px;
+    width: 300px;
+    /* height: 300px; */
+    text-align: center;
+  }
+  .card_main_center {
+    padding: 15px 0px;
+  }
+  .card_main_center h3 {
+    color: gray;
+    margin-bottom: 50px;
+  }
+  .card_main_center h1 {
+    margin-bottom: 50px;
+  }
+  .card_main_center > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .card_main_center > div > p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .card_main_center > div > p > i {
+    background-color: rgb(4, 207, 207);
+    border-radius: 50%;
+  }
+  .card_main_center > button {
+    padding: 10px 27px;
+    color: white;
+    background: rgb(245, 84, 84);
+    border-radius: 5px;
+    border: none;
+    margin-top: 50px;
+  }
+
+
+
+
+
+
+
+.footer{
+    background-color: rgb(203, 244, 230) ;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container > .footer > div > h2{
+    color: black;
+    font-size:30px ;
+}
+.container > .footer > div{
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
